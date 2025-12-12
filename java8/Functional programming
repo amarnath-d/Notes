@@ -1,1 +1,13 @@
+Comparator and Comparable Interfaces
+------------------------------------
+-Tipically used for sorting the objects
+-Java provides certain inbuilt methods to start primitive types, arrays or wrappers.
+-But to compare objects comparison need to be done by custom code, and there comes role of comparator and comparable.
+ -public int compareTo(Employee emp) -- 
 
+Built-in Functional Interfaces
+----------------------------
+Predicate<T> - checks conditions and returns results as boolan values - filter()
+Consumer<T> - Operation taking arguments but returning nothing - forEach()
+Function<T,R> - Funtions taking arguments and returning results - map()
+Supplier<T> - Operations returning values to the callers. Returned values could be same or different - generate() creates infinite stream of elements
